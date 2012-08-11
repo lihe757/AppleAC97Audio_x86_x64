@@ -74,7 +74,6 @@ __OUT(l, long)
 #endif
 
 extern void cninit(void);
-extern int  sprintf(char * str, const char * format, ...);
 
 
 #include "AppleAC97AudioIntelICH.h"
@@ -218,12 +217,10 @@ bool CLASS::start( IOService * provider )
     }
 	if (fICHxType == 99) 
 	{
-//		sprintf(nameBuf, "NVIDIA nForce");
         snprintf(nameBuf, sizeof(nameBuf), "NVIDIA nForce");
 	}
 	else
 	{
-//		sprintf(nameBuf, "Intel ICH%lu", fICHxType);
         snprintf(nameBuf, sizeof(nameBuf), "Intel ICH%lu", fICHxType);
 	}
     setProperty(kIOAC97HardwareNameKey, nameBuf);
