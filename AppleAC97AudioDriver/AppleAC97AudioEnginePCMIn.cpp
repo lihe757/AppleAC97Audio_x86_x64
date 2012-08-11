@@ -218,7 +218,7 @@ bool CLASS::initAudioStreams( void )
          i++)
     {
         streamFormat.fNumChannels = config->getAudioChannelCount();
-        streamFormat.fDriverTag   = (IOByteCount) config->getClientData();
+        streamFormat.fDriverTag   = *((UInt*)(config->getClientData()));
         sampleRate.whole          = config->getSampleRate();
         sampleRate.fraction       = 0;
 
@@ -241,7 +241,7 @@ bool CLASS::initAudioStreams( void )
     if (fConfigActive)
     {
         streamFormat.fNumChannels = fConfigActive->getAudioChannelCount();
-        streamFormat.fDriverTag   = (IOByteCount)fConfigActive->getClientData();
+        streamFormat.fDriverTag   = *((UInt*)(fConfigActive->getClientData()));
         fInputStream->setFormat( &streamFormat );
         DebugLog("%s: set input stream format to %lu-ch, tag %lu\n",
                  getName(), streamFormat.fNumChannels,
