@@ -22,7 +22,7 @@
 
 #include <IOKit/IOLib.h>
 #include <libkern/OSByteOrder.h>
-//#include <pexpert/i386/protos.h>
+
 
 //------------------------------------------------------------------------
 // x86 IN/OUT I/O inline functions.
@@ -1507,15 +1507,7 @@ IOByteCount AppleAC97AudioIntelIOReg::getBaseAddress( void ) const
 
 UInt32 AppleAC97AudioIntelIOReg::read32( UInt32 offset )
 {
-	uint temp = fIOBase + offset;
-/*#if defined (__x86_64__)
-	asm ("movzwl	8(%rdi), %edx");
-	asm	("leal	(%rsi,%rdx), %edx");
-	asm ("inl %dx, %eax");
-	asm ("movslq %eax,%rax");
-#else*/
-    return inl(temp);
-//#endif
+    return inl(fIOBase + offset);
 }
 
 UInt16 AppleAC97AudioIntelIOReg::read16( UInt32 offset )
@@ -1530,20 +1522,7 @@ UInt8 AppleAC97AudioIntelIOReg::read8( UInt32 offset )
 
 void AppleAC97AudioIntelIOReg::write32( UInt32 offset, UInt32 data )
 {
-	UInt32 temp = (fIOBase + offset);
-/*#if defined (__x86_64__)
-	asm("mov	-32(%rbp), %edx");
-	asm("movl	-8(%rbp), %eax");
-	asm("movzwl	%ax, %eax");
-	asm("movw	%ax, -2(%rbp)");
-	asm("movq	%rdx, -16(%rbp)");
-	asm("movzwl	-2(%rbp), %edx");
-	asm("movq	-16(%rbp), %rax");
-	asm("movl	%eax, (%rax)");
-	asm("outl	%eax,%dx");
-#else*/
-    outl((long)temp, (long)data);
-//#endif
+    outl(fIOBase + offset, data);
 }
 
 void AppleAC97AudioIntelIOReg::write16( UInt32 offset, UInt16 data )
