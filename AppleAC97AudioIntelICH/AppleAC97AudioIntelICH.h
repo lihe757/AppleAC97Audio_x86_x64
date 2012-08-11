@@ -205,18 +205,18 @@ protected:
     IOFilterInterruptEventSource * fInterruptSource;
     bool                           fACLinkPowerDown;
     DMAEngineState *               fDMAState;
-    IOByteCount                         fMaxCodecID;
+    UInt32                         fMaxCodecID;
     IOMemoryMap *                  fMixerMap;   
     AppleAC97AudioIntelHWReg *     fMixerReg;
     IOMemoryMap *                  fBMMap;
     AppleAC97AudioIntelHWReg *     fBMReg;
     thread_call_t                  fSetPowerStateThreadCall;
     IOAC97CodecDevice *            fCodecs[ kIOAC97MaxCodecCount ];
-    IOByteCount                         fICHxType;
+    UInt32                         fICHxType;
     IOOptionBits                   fDMASupportMask;
-    IOByteCount                         fBusyOutputSlots;
-    IOByteCount                         fCodecReadCount;
-    IOByteCount                         fCodecWriteCount;
+    UInt32                         fBusyOutputSlots;
+    UInt32                         fCodecReadCount;
+    UInt32                         fCodecWriteCount;
 
     static void          interruptOccurred(
                                  OSObject * owner,

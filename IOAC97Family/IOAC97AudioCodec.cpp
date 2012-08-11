@@ -2295,7 +2295,7 @@ UInt32 CLASS::measure48KSampleRate( IOAC97CodecConverter converter )
     // Computed the measured sample rate when 48KHz rate was programmed.
 
     SUB_ABSOLUTETIME(&finalTime, &startTime);
-    absolutetime_to_nanoseconds(*(uint64_t *)&finalTime, (uint64_t *)&elapsedTimeNS);
+    absolutetime_to_nanoseconds(*((uint64_t *)&finalTime), (uint64_t *)&elapsedTimeNS);
     elapsedFrames = ((finalPosition - startPosition) /
                      (kNumChannels * kBytesPerSample));
 

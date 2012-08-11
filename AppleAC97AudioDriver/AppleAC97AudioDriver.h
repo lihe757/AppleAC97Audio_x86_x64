@@ -79,7 +79,7 @@ public:
                                  IOService * whichDriver );
 
     virtual IOReturn    protectedSetPowerState(
-                                 UInt32 powerStateOrdinal,
+                                 unsigned long powerStateOrdinal,
                                  IOService * device );
 };
 

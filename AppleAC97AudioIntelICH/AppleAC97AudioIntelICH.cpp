@@ -522,7 +522,7 @@ IOAC97CodecDevice * CLASS::createCodecDevice( IOAC97CodecID codecID )
 bool CLASS::waitCodecReady( void )
 {
     bool   isReady = false;
-    IOByteCount readyMask;
+    UInt32 readyMask;
 
     // Wait for at least one codec to assert ready.
 
@@ -1021,7 +1021,7 @@ bool CLASS::hwActivateConfiguration( const IOAC97AudioConfig * config )
 {
     IOItemCount  channels = config->getAudioChannelCount();
     IOOptionBits map      = config->getSlotMap();
-    IOByteCount      control;
+    UInt32       control;
 
     DebugLog("%s::%s (%p)\n", getName(), __FUNCTION__, config);
 
@@ -1092,7 +1092,7 @@ bool CLASS::hwActivateConfiguration( const IOAC97AudioConfig * config )
 void CLASS::hwDeactivateConfiguration( const IOAC97AudioConfig * config )
 {
     IOOptionBits map = config->getSlotMap();
-    IOByteCount       control;
+    UInt32       control;
 
     DebugLog("%s::%s (%p)\n", getName(), __FUNCTION__, config);
 
@@ -1380,7 +1380,7 @@ bool CLASS::configureProvider( IOService * provider )
     num = OSDynamicCast(OSNumber, getProperty("ICH Type"));
     if (num)
     {
-        IOByteCount ich_type = num->unsigned32BitValue();
+        UInt32 ich_type = num->unsigned32BitValue();
 		if (ich_type == 99)
 			DMAEngineBase[2] = 0x70;
 	}

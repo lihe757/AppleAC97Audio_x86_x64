@@ -530,8 +530,7 @@ IOReturn CLASS::acknowledgePowerChange(
     return acknowledgeSetPowerState();
 }
 
-IOReturn CLASS::protectedSetPowerState(
-                       UInt32 powerStateOrdinal, IOService * device )
+IOReturn CLASS::protectedSetPowerState(unsigned long powerStateOrdinal, IOService * device )
 {
     IOReturn ret = super::protectedSetPowerState(powerStateOrdinal, device);
 

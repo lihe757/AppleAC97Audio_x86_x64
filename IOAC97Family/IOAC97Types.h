@@ -40,12 +40,12 @@ typedef UInt32 IOAC97RecordSource;
 typedef SInt32 IOAC97VolumeValue;
 typedef SInt32 IOAC97GainValue;
 
-#ifndef BIT//(b)
+#ifndef BIT(b)
 #define BIT(b)  (1 << (b))
 #endif
 
 // For build on pre-Tiger systems
-#ifndef iokit_vendor_specific_msg//(message)
+#ifndef iokit_vendor_specific_msg(message)
 #define iokit_vendor_specific_msg(message) \
         (UInt32)(sys_iokit|err_sub(-2)|message)
 #endif
