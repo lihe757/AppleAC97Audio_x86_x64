@@ -1,0 +1,6 @@
+﻿/* Localized versions of Info.plist keys */
+
+CFBundleName = "AC97 Audio Driver";
+CFBundleShortVersionString = "1.0.0";
+CFBundleGetInfoString = "1.0.0, Copyright Apple Computer, Inc. 2004";
+NSHumanReadableCopyright = "Copyright Apple Computer, Inc. 2004";

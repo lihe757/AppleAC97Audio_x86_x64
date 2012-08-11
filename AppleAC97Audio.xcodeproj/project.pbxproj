@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AE45C131222648600271E91 /* IOAC97AudioCodec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE45C091222648600271E91 /* IOAC97AudioCodec.cpp */; };
+		2AE45C141222648600271E91 /* IOAC97AudioCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE45C0A1222648600271E91 /* IOAC97AudioCodec.h */; };
+		2AE45C151222648600271E91 /* IOAC97AudioConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE45C0B1222648600271E91 /* IOAC97AudioConfig.cpp */; };
+		2AE45C161222648600271E91 /* IOAC97AudioConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE45C0C1222648600271E91 /* IOAC97AudioConfig.h */; };
+		2AE45C171222648600271E91 /* IOAC97CodecDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE45C0D1222648600271E91 /* IOAC97CodecDevice.cpp */; };
+		2AE45C181222648600271E91 /* IOAC97CodecDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE45C0E1222648600271E91 /* IOAC97CodecDevice.h */; };
+		2AE45C191222648600271E91 /* IOAC97Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE45C0F1222648600271E91 /* IOAC97Controller.cpp */; };
+		2AE45C1A1222648600271E91 /* IOAC97Controller.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE45C101222648600271E91 /* IOAC97Controller.h */; };
+		2AE45C1B1222648600271E91 /* IOAC97Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE45C111222648600271E91 /* IOAC97Debug.h */; };
+		2AE45C1C1222648600271E91 /* IOAC97Types.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE45C121222648600271E91 /* IOAC97Types.h */; };
+		2AE45C251222649C00271E91 /* AppleAC97AudioDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE45C1E1222649C00271E91 /* AppleAC97AudioDriver.cpp */; };
+		2AE45C261222649C00271E91 /* AppleAC97AudioDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE45C1F1222649C00271E91 /* AppleAC97AudioDriver.h */; };
+		2AE45C271222649C00271E91 /* AppleAC97AudioEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE45C201222649C00271E91 /* AppleAC97AudioEngine.cpp */; };
+		2AE45C281222649C00271E91 /* AppleAC97AudioEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE45C211222649C00271E91 /* AppleAC97AudioEngine.h */; };
+		2AE45C291222649C00271E91 /* AppleAC97AudioEnginePCMIn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE45C221222649C00271E91 /* AppleAC97AudioEnginePCMIn.cpp */; };
+		2AE45C2A1222649C00271E91 /* AppleAC97AudioEnginePCMOut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE45C231222649C00271E91 /* AppleAC97AudioEnginePCMOut.cpp */; };
+		2AE45C2B1222649C00271E91 /* AppleAC97AudioEngineSPDIF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE45C241222649C00271E91 /* AppleAC97AudioEngineSPDIF.cpp */; };
+		2AE45C3A1222673700271E91 /* libAppleAC97AudioFloatLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE45C33122264FF00271E91 /* libAppleAC97AudioFloatLib.a */; };
+		2AE45C5A122268BC00271E91 /* AppleAC97AudioEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE45C201222649C00271E91 /* AppleAC97AudioEngine.cpp */; };
+		2AE45C791222696100271E91 /* AppleAC97AudioIntelICH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE45C771222696100271E91 /* AppleAC97AudioIntelICH.cpp */; };
+		2AE45C98122269E800271E91 /* AppleAC97AudioIntelICH.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE45C781222696100271E91 /* AppleAC97AudioIntelICH.h */; };
+		2AEB04401228F0E3008E14CF /* AppleAC97AudioIntelICH.kext in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2AE45C691222693800271E91 /* AppleAC97AudioIntelICH.kext */; };
+		32A4FEBC0562C75700D090E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AE45C3B1222674300271E91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AE45C32122264FF00271E91;
+			remoteInfo = AppleAC97AudioFloatLib;
+		};
+		2AE45C87122269A400271E91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AE45C681222693800271E91;
+			remoteInfo = AppleAC97AudioIntelICH;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2AEB04461228F110008E14CF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2AEB04401228F0E3008E14CF /* AppleAC97AudioIntelICH.kext in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2AE45C091222648600271E91 /* IOAC97AudioCodec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IOAC97AudioCodec.cpp; sourceTree = "<group>"; };
+		2AE45C0A1222648600271E91 /* IOAC97AudioCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOAC97AudioCodec.h; sourceTree = "<group>"; };
+		2AE45C0B1222648600271E91 /* IOAC97AudioConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IOAC97AudioConfig.cpp; sourceTree = "<group>"; };
+		2AE45C0C1222648600271E91 /* IOAC97AudioConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOAC97AudioConfig.h; sourceTree = "<group>"; };
+		2AE45C0D1222648600271E91 /* IOAC97CodecDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IOAC97CodecDevice.cpp; sourceTree = "<group>"; };
+		2AE45C0E1222648600271E91 /* IOAC97CodecDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOAC97CodecDevice.h; sourceTree = "<group>"; };
+		2AE45C0F1222648600271E91 /* IOAC97Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IOAC97Controller.cpp; sourceTree = "<group>"; };
+		2AE45C101222648600271E91 /* IOAC97Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOAC97Controller.h; sourceTree = "<group>"; };
+		2AE45C111222648600271E91 /* IOAC97Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOAC97Debug.h; sourceTree = "<group>"; };
+		2AE45C121222648600271E91 /* IOAC97Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOAC97Types.h; sourceTree = "<group>"; };
+		2AE45C1E1222649C00271E91 /* AppleAC97AudioDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppleAC97AudioDriver.cpp; sourceTree = "<group>"; };
+		2AE45C1F1222649C00271E91 /* AppleAC97AudioDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleAC97AudioDriver.h; sourceTree = "<group>"; };
+		2AE45C201222649C00271E91 /* AppleAC97AudioEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppleAC97AudioEngine.cpp; sourceTree = "<group>"; };
+		2AE45C211222649C00271E91 /* AppleAC97AudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleAC97AudioEngine.h; sourceTree = "<group>"; };
+		2AE45C221222649C00271E91 /* AppleAC97AudioEnginePCMIn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppleAC97AudioEnginePCMIn.cpp; sourceTree = "<group>"; };
+		2AE45C231222649C00271E91 /* AppleAC97AudioEnginePCMOut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppleAC97AudioEnginePCMOut.cpp; sourceTree = "<group>"; };
+		2AE45C241222649C00271E91 /* AppleAC97AudioEngineSPDIF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppleAC97AudioEngineSPDIF.cpp; sourceTree = "<group>"; };
+		2AE45C33122264FF00271E91 /* libAppleAC97AudioFloatLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAppleAC97AudioFloatLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE45C421222682D00271E91 /* AppleAC97AudioAMD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppleAC97AudioAMD-Info.plist"; sourceTree = "<group>"; };
+		2AE45C611222691000271E91 /* AppleAC97AudioVIA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppleAC97AudioVIA-Info.plist"; sourceTree = "<group>"; };
+		2AE45C691222693800271E91 /* AppleAC97AudioIntelICH.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleAC97AudioIntelICH.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE45C6A1222693800271E91 /* AppleAC97AudioIntelICH-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppleAC97AudioIntelICH-Info.plist"; sourceTree = "<group>"; };
+		2AE45C771222696100271E91 /* AppleAC97AudioIntelICH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppleAC97AudioIntelICH.cpp; sourceTree = "<group>"; };
+		2AE45C781222696100271E91 /* AppleAC97AudioIntelICH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleAC97AudioIntelICH.h; sourceTree = "<group>"; };
+		2AE45C7F1222699100271E91 /* AppleAC97CodedAD198x-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppleAC97CodedAD198x-Info.plist"; sourceTree = "<group>"; };
+		32A4FEC30562C75700D090E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32A4FEC40562C75800D090E7 /* AppleAC97Audio.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleAC97Audio.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27513B306A6225300ADB3A4 /* Kernel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kernel.framework; path = /System/Library/Frameworks/Kernel.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AE45C31122264FF00271E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE45C671222693800271E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A4FEBF0562C75700D090E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE45C3A1222673700271E91 /* libAppleAC97AudioFloatLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* AppleAC97Audio */ = {
+			isa = PBXGroup;
+			children = (
+				2AE45C761222696100271E91 /* AppleAC97AudioIntelICH */,
+				2AE45C1D1222649C00271E91 /* AppleAC97AudioDriver */,
+				2AE45C081222648600271E91 /* IOAC97Family */,
+				247142CAFF3F8F9811CA285C /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				D27513B306A6225300ADB3A4 /* Kernel.framework */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+				2AE45C421222682D00271E91 /* AppleAC97AudioAMD-Info.plist */,
+				2AE45C611222691000271E91 /* AppleAC97AudioVIA-Info.plist */,
+				2AE45C6A1222693800271E91 /* AppleAC97AudioIntelICH-Info.plist */,
+				2AE45C7F1222699100271E91 /* AppleAC97CodedAD198x-Info.plist */,
+			);
+			name = AppleAC97Audio;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32A4FEC30562C75700D090E7 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32A4FEC40562C75800D090E7 /* AppleAC97Audio.kext */,
+				2AE45C33122264FF00271E91 /* libAppleAC97AudioFloatLib.a */,
+				2AE45C691222693800271E91 /* AppleAC97AudioIntelICH.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247142CAFF3F8F9811CA285C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		2AE45C081222648600271E91 /* IOAC97Family */ = {
+			isa = PBXGroup;
+			children = (
+				2AE45C091222648600271E91 /* IOAC97AudioCodec.cpp */,
+				2AE45C0A1222648600271E91 /* IOAC97AudioCodec.h */,
+				2AE45C0B1222648600271E91 /* IOAC97AudioConfig.cpp */,
+				2AE45C0C1222648600271E91 /* IOAC97AudioConfig.h */,
+				2AE45C0D1222648600271E91 /* IOAC97CodecDevice.cpp */,
+				2AE45C0E1222648600271E91 /* IOAC97CodecDevice.h */,
+				2AE45C0F1222648600271E91 /* IOAC97Controller.cpp */,
+				2AE45C101222648600271E91 /* IOAC97Controller.h */,
+				2AE45C111222648600271E91 /* IOAC97Debug.h */,
+				2AE45C121222648600271E91 /* IOAC97Types.h */,
+			);
+			path = IOAC97Family;
+			sourceTree = "<group>";
+		};
+		2AE45C1D1222649C00271E91 /* AppleAC97AudioDriver */ = {
+			isa = PBXGroup;
+			children = (
+				2AE45C1E1222649C00271E91 /* AppleAC97AudioDriver.cpp */,
+				2AE45C1F1222649C00271E91 /* AppleAC97AudioDriver.h */,
+				2AE45C201222649C00271E91 /* AppleAC97AudioEngine.cpp */,
+				2AE45C211222649C00271E91 /* AppleAC97AudioEngine.h */,
+				2AE45C221222649C00271E91 /* AppleAC97AudioEnginePCMIn.cpp */,
+				2AE45C231222649C00271E91 /* AppleAC97AudioEnginePCMOut.cpp */,
+				2AE45C241222649C00271E91 /* AppleAC97AudioEngineSPDIF.cpp */,
+			);
+			path = AppleAC97AudioDriver;
+			sourceTree = "<group>";
+		};
+		2AE45C761222696100271E91 /* AppleAC97AudioIntelICH */ = {
+			isa = PBXGroup;
+			children = (
+				2AE45C771222696100271E91 /* AppleAC97AudioIntelICH.cpp */,
+				2AE45C781222696100271E91 /* AppleAC97AudioIntelICH.h */,
+			);
+			path = AppleAC97AudioIntelICH;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2AE45C2F122264FF00271E91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE45C9C12226A1200271E91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE45C98122269E800271E91 /* AppleAC97AudioIntelICH.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A4FEBA0562C75700D090E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE45C141222648600271E91 /* IOAC97AudioCodec.h in Headers */,
+				2AE45C161222648600271E91 /* IOAC97AudioConfig.h in Headers */,
+				2AE45C181222648600271E91 /* IOAC97CodecDevice.h in Headers */,
+				2AE45C1A1222648600271E91 /* IOAC97Controller.h in Headers */,
+				2AE45C1B1222648600271E91 /* IOAC97Debug.h in Headers */,
+				2AE45C1C1222648600271E91 /* IOAC97Types.h in Headers */,
+				2AE45C261222649C00271E91 /* AppleAC97AudioDriver.h in Headers */,
+				2AE45C281222649C00271E91 /* AppleAC97AudioEngine.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2AE45C32122264FF00271E91 /* AppleAC97AudioFloatLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AE45C36122265B000271E91 /* Build configuration list for PBXNativeTarget "AppleAC97AudioFloatLib" */;
+			buildPhases = (
+				2AE45C2F122264FF00271E91 /* Headers */,
+				2AE45C30122264FF00271E91 /* Sources */,
+				2AE45C31122264FF00271E91 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleAC97AudioFloatLib;
+			productName = AppleAC97AudioFloatLib;
+			productReference = 2AE45C33122264FF00271E91 /* libAppleAC97AudioFloatLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2AE45C681222693800271E91 /* AppleAC97AudioIntelICH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AE45C6D1222693900271E91 /* Build configuration list for PBXNativeTarget "AppleAC97AudioIntelICH" */;
+			buildPhases = (
+				2AE45C651222693800271E91 /* Sources */,
+				2AE45C661222693800271E91 /* Resources */,
+				2AE45C671222693800271E91 /* Frameworks */,
+				2AE45C9C12226A1200271E91 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleAC97AudioIntelICH;
+			productName = AppleAC97AudioIntelICH;
+			productReference = 2AE45C691222693800271E91 /* AppleAC97AudioIntelICH.kext */;
+			productType = "com.apple.product-type.kernel-extension.iokit";
+		};
+		32A4FEB80562C75700D090E7 /* AppleAC97Audio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91C308733DAC0010E9CD /* Build configuration list for PBXNativeTarget "AppleAC97Audio" */;
+			buildPhases = (
+				32A4FEBA0562C75700D090E7 /* Headers */,
+				32A4FEBB0562C75700D090E7 /* Resources */,
+				32A4FEBD0562C75700D090E7 /* Sources */,
+				32A4FEBF0562C75700D090E7 /* Frameworks */,
+				32A4FEC00562C75700D090E7 /* Rez */,
+				2AEB04461228F110008E14CF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AE45C3C1222674300271E91 /* PBXTargetDependency */,
+				2AE45C88122269A400271E91 /* PBXTargetDependency */,
+			);
+			name = AppleAC97Audio;
+			productInstallPath = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+			productName = AppleAC97Audio;
+			productReference = 32A4FEC40562C75800D090E7 /* AppleAC97Audio.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 1DEB91C708733DAC0010E9CD /* Build configuration list for PBXProject "AppleAC97Audio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* AppleAC97Audio */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32A4FEB80562C75700D090E7 /* AppleAC97Audio */,
+				2AE45C32122264FF00271E91 /* AppleAC97AudioFloatLib */,
+				2AE45C681222693800271E91 /* AppleAC97AudioIntelICH */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AE45C661222693800271E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A4FEBB0562C75700D090E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A4FEBC0562C75700D090E7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		32A4FEC00562C75700D090E7 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AE45C30122264FF00271E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE45C5A122268BC00271E91 /* AppleAC97AudioEngine.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE45C651222693800271E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE45C791222696100271E91 /* AppleAC97AudioIntelICH.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32A4FEBD0562C75700D090E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE45C131222648600271E91 /* IOAC97AudioCodec.cpp in Sources */,
+				2AE45C151222648600271E91 /* IOAC97AudioConfig.cpp in Sources */,
+				2AE45C171222648600271E91 /* IOAC97CodecDevice.cpp in Sources */,
+				2AE45C191222648600271E91 /* IOAC97Controller.cpp in Sources */,
+				2AE45C251222649C00271E91 /* AppleAC97AudioDriver.cpp in Sources */,
+				2AE45C271222649C00271E91 /* AppleAC97AudioEngine.cpp in Sources */,
+				2AE45C291222649C00271E91 /* AppleAC97AudioEnginePCMIn.cpp in Sources */,
+				2AE45C2A1222649C00271E91 /* AppleAC97AudioEnginePCMOut.cpp in Sources */,
+				2AE45C2B1222649C00271E91 /* AppleAC97AudioEngineSPDIF.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AE45C3C1222674300271E91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AE45C32122264FF00271E91 /* AppleAC97AudioFloatLib */;
+			targetProxy = 2AE45C3B1222674300271E91 /* PBXContainerItemProxy */;
+		};
+		2AE45C88122269A400271E91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AE45C681222693800271E91 /* AppleAC97AudioIntelICH */;
+			targetProxy = 2AE45C87122269A400271E91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91C408733DAC0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULE_NAME = com.yourcompany.kext.AppleAC97Audio;
+				MODULE_START = AppleAC97Audio_start;
+				MODULE_STOP = AppleAC97Audio_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = AppleAC97Audio;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		1DEB91C508733DAC0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_MODEL_TUNING = G4;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-I. -xassembler-with-cpp";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				KERNEL_MODULE = YES;
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "$(SRCROOT)/build/Release";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULE_IOKIT = YES;
+				MODULE_NAME = com.apple.driver.AppleAC97Audio;
+				MODULE_START = 0;
+				MODULE_STOP = 0;
+				MODULE_VERSION = 1.0.0d1;
+				OTHER_CFLAGS = "-Wno-format";
+				PRODUCT_NAME = AppleAC97Audio;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 x86_64";
+				WARNING_CFLAGS = (
+					"-Wno-unknown-pragmas",
+					"-Wno-four-char-constants",
+					"-Wmost",
+				);
+				WRAPPER_EXTENSION = kext;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		1DEB91C808733DAC0010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB91C908733DAC0010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-I.";
+				INFOPLIST_PREPROCESS = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		2AE45C34122264FF00271E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = AppleAC97AudioFloatLib;
+			};
+			name = Debug;
+		};
+		2AE45C35122264FF00271E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_MODEL_TUNING = G5;
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Kernel.framework/Headers",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Kernel.framework/Headers/bsd",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-I.";
+				INFOPLIST_PREPROCESS = YES;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_STYLE = STATIC;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS_removed = "-mlong-branch";
+				OTHER_CFLAGS_x86_64 = "-mkernel";
+				OTHER_LDFLAGS = "-static";
+				PRODUCT_NAME = AppleAC97AudioFloatLib;
+				REZ_EXECUTABLE = YES;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "i386 x86_64";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		2AE45C6B1222693900271E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "AppleAC97AudioIntelICH-Info.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULE_NAME = com.yourcompany.driver.AppleAC97AudioIntelICH;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = AppleAC97AudioIntelICH;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		2AE45C6C1222693900271E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_MODEL_TUNING = G4;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "AppleAC97AudioIntelICH-Info.plist";
+				INSTALL_PATH = "$(SYSTEM_LIBRARY_DIR)/Extensions";
+				KERNEL_EXTENSION = YES;
+				KERNEL_MODULE = YES;
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "$(SRCROOT)/build/Release";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULE_IOKIT = YES;
+				MODULE_NAME = com.apple.driver.AppleAC97AudioIntelICH;
+				MODULE_VERSION = 1.0.0d1;
+				OTHER_CFLAGS = "-Wno-format";
+				PER_ARCH_CPLUSPLUSFLAGS_ppc = "-mno-string";
+				PRODUCT_NAME = AppleAC97AudioIntelICH;
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = (
+					"-Wno-unknown-pragmas",
+					"-Wno-four-char-constants",
+					"-Wmost",
+				);
+				WRAPPER_EXTENSION = kext;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91C308733DAC0010E9CD /* Build configuration list for PBXNativeTarget "AppleAC97Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91C408733DAC0010E9CD /* Debug */,
+				1DEB91C508733DAC0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91C708733DAC0010E9CD /* Build configuration list for PBXProject "AppleAC97Audio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91C808733DAC0010E9CD /* Debug */,
+				1DEB91C908733DAC0010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AE45C36122265B000271E91 /* Build configuration list for PBXNativeTarget "AppleAC97AudioFloatLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AE45C34122264FF00271E91 /* Debug */,
+				2AE45C35122264FF00271E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AE45C6D1222693900271E91 /* Build configuration list for PBXNativeTarget "AppleAC97AudioIntelICH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AE45C6B1222693900271E91 /* Debug */,
+				2AE45C6C1222693900271E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
